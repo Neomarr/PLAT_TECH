@@ -1,0 +1,57 @@
+.carousel-inner{
+  padding: 0px;
+  height: 600px;
+   object-position: center;
+  
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: rgb(161, 255, 166);
+}
+
+.carousel-inner, hero{
+   opacity: 1;
+}
+
+.carousel-caption {
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-250%);
+  color: rgb(255, 255, 255);
+  
+}
+
+.btn btn-primary{
+  margin-top: 10px;
+}
+
+.col {
+  padding: 30px;
+  
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  
+}
+
+footer {
+  background-color: rgb(161, 255, 166);
+  padding: 20px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.col .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
